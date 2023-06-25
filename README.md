@@ -2,6 +2,12 @@
 
 deTour is a small proxy server which redirects.
 
+Source : `https://github.com/pulsiot/detour`
+
+## Build
+
+[![Build Containerimage](https://github.com/pulsiot/detour/actions/workflows/build-containerimage.yml/badge.svg)](https://github.com/pulsiot/detour/actions/workflows/build-containerimage.yml)
+
 ## Config File.
 
 deTour uses two configuration files:
