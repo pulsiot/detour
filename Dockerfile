@@ -23,7 +23,7 @@ COPY server.key ${DETOUR_CONF_DIR}
 FROM scratch
 # Copy our static executable.
 COPY --from=builder /bin/detour-proxy /app/detour-proxy
-COPY --from=builder /build/etc /
+COPY --from=builder /build/etc /etc
 WORKDIR /app
 # Run the hello binary.
 ENTRYPOINT ["/app/detour-proxy"]
