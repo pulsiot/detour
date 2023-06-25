@@ -1,0 +1,3 @@
+certFile: "/etc/detour/server.crt"
+keyFile: "/etc/detour/server.key"
+port: ":443"

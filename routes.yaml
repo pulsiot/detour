@@ -1,0 +1,4 @@
+routes:
+  /: https://google.com/
+  /blog: https://blog.google/
+  /news: https://news.google.com/
